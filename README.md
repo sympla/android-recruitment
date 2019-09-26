@@ -1,46 +1,40 @@
 # Recrutamento Android
 
-[https://www.sympla.com.br/trabalhe-conosco](https://www.sympla.com.br/trabalhe-conosco#job-70855 "Descrição da vaga Android")
-
-Parabéns! Você chegou até o nosso teste para desenvolvedores Android! Caso ainda não conheça a Sympla ou não saiba detalhes sobre a vaga, por favor entre no link a cima. Se está tudo ok e deseja continuar o teste, ficamos muito feliz por escolher a Sympla 🙂
+Primeiramente, muito obrigado por escolher a Sympla! 🙂
 
 Fazer parte da Sympla envolve ser parte essencial da nossa cultura e do nosso negócio. Quando pensamos em nosso time de desenvolvimento, fazer parte da Sympla também significa estar alinhado com nossas convicções sobre os alicerces de um bom processo de desenvolvimento. Nada melhor para mostrar do que um desenvolvedor é feito do que escrever código 🤘  
 
 ## Sobre o exercício
 
-Esta etapa do processo consiste em criar um projeto de uma app que vai emular a nova home do app Android da Sympla. É apenas uma tela, mas é mais do que suficiente para nos introduzir a quem você é escrevendo código: seu estilo de organização de projeto, suas convenções de nomenclatura e de formatação, suas noções de arquitetura e, claro, seu grau de intimidade com os conceitos fundamentais do desenvolvimento Android.  
+O objetivo desta etapa do processo é conhecer seu estilo de codificação e sua abordagem para arquitetar, organizar e testar um app Android nativo escrito do zero. Para isso, você é livre para escolher entre duas opções:
 
-## Referência de design
+**1.** Uma app para conversão de moedas
 
-Vamos usar como referência o design do nosso novo App.
+**2.** Um browser para a API de usuários do GitHub
 
-![Referência de design](https://raw.githubusercontent.com/sympla/android-recruitment/master/device-2017-09-05-175822.png)  
+Ambas são equivalentes sob a ótica de avaliarmos seu nível e seu conhecimento enquanto desenvolvedor Android.
 
-## Endpoints
+### Conversor de moedas
 
-Vamos usar dados reais que resultam de chamadas à API da Sympla. Queremos conhecer seu código de networking mas não vamos acessar a API da Sympla diretamente (também por motivos de praticidade). Pensando nisso, estamos disponibilizando via AWS S3 dois JSONs contendo os dados que serão necessários para renderizar as duas listagens horizontais de eventos.  
+A primeira opção é desenvolver um app que permita a conversão entre duas moedas, como por exemplo entre o dólar e o real ou entre o euro e o peso argentino. O problema da experiência de usuário para um app como esse pode ser solucionado de inúmeras formas e você tem carta branca para abordar a solução como preferir.
 
-**Front page**
+Você também é livre para usar qualquer fonte de dados para consultar informações sobre o valor de cada moeda (naturalmente em relação a uma moeda base). Como sugestão, a API [https://exchangeratesapi.io/](https://exchangeratesapi.io/) é totalmente grátis e versátil, permitindo que você filtre a lista de moedas e escolha uma moeda base arbitrária para servir de referência para o cálculo dos valores unitários.
 
-[https://s3.amazonaws.com/sympla-ios-recruitment/endpoints/featured_events.json](https://s3.amazonaws.com/sympla-ios-recruitment/endpoints/featured_events.json)  
+### Browser de usuários do GitHub
 
-**Destaques**
+A segunda opção é desenvolver um app que permita usar uma pesquisa de texto livre para encontrar usuários do GitHub. Além de encontrar usuários, o app deve conseguir listar os respositórios de um usuário e também deve conseguir visualizar detalhes sobre o perfil público do usuário selecionado.
 
-[https://s3.amazonaws.com/sympla-ios-recruitment/endpoints/highlighted_events.json](https://s3.amazonaws.com/sympla-ios-recruitment/endpoints/highlighted_events.json)
+Assim como na primeira opção, a experiência de usuário para um app como esse pode ser abordada de muitas formas e deixamos para você a responsabilidade de decidir como apresentar as informações que pedimos da melhor maneira possível. No CocoaHeads Conference de 2016, Guilherme Rambo usou como pano de fundo para sua palestra um app que ele desenvolveu chamado [Astronomer](https://github.com/insidegui/Astronomer) que serviu de inspiração o tema da segunda opção. Caso queira, você pode se basear completamente nesta UI.
 
-## Recursos
+## Objetivos
 
-O design é apenas uma referência, mas é desejável que se atinja o máximo de aderência possível à especificação. Por isso, também vamos disponibilizar as [imagens](https://github.com/sympla/android-recruitment/blob/master/images.zip?raw=true) e as [fontes](https://s3.amazonaws.com/sympla-ios-recruitment/fonts/fonts.zip) usadas na referência, já com os tamanhos para renderização correta nas diferentes densidades de tela.
-
-## Requisitos
-
-O app que esperamos ver ao final do processo consiste basicamente em duas listagens horizontais de eventos renderizadas de acordo com a referência, então acreditamos que o design e os endpoints são suficientes. O que a gente quer é justamente conhecer você como profissional e, acima de tudo, como programador. Por isso, não vamos estabelecer nenhum tipo de restrição sobre padrões de projeto, gerenciamento de dependências, construção de UI ou boas práticas. Queremos que você esteja à vontade para programar da maneira que mais gosta, e que você tenha autonomia para construir o projeto do seu jeito, com as suas regras e imprimindo o seu estilo.
+O nosso objetivo com este problema prático é conhecer você como profissional e, acima de tudo, como programador. Por isso, não vamos estabelecer nenhum tipo de restrição sobre padrões de projeto, gerenciamento de dependências, construção de UI ou boas práticas. Queremos que você esteja à vontade para programar da maneira que mais gosta, e que você tenha autonomia para construir o projeto do seu jeito, com as suas regras e imprimindo o seu estilo.
 
 Só temos um pedido: encare este projeto como algo que você encontraria em seu dia-a-dia profissional, ou como um projeto de estimação. Em outras palavras, queremos que você sinta prazer programando e que você se dedique ao projeto como se fosse seu. O resto é por sua conta 😬
 
 ## Submissão
 
-- Criar um repositório privado com o nome `android-recruitment` em seu host de projetos favorito e entrar em contato através do e-mail [duanniston.cabral@sympla.com.br](mailto:duanniston.cabral@sympla.com.br) para prosseguirmos com o acesso ao código.
+Criar um repositório privado com o nome `android-recruitment` em seu host de projetos favorito e entrar em contato através do e-mail [duanniston.cabral@sympla.com.br](mailto:duanniston.cabral@sympla.com.br) para prosseguirmos com o acesso ao código.
 
 ## Contato
 
